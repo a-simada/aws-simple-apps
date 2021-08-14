@@ -1,14 +1,9 @@
-# Welcome to your CDK TypeScript project!
+# aws-cdk-app-1
 
-This is a blank project for TypeScript development with CDK.
+This is a simple project to build AWS Lambda, APIGateway, and DynamoDB (basic serverless architecture) with AWS CDK (Typescript).
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+### Deploy
 
-## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+```bash
+cdk deploy
+```
