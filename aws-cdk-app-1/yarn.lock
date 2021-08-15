@@ -60,6 +60,21 @@
     "@aws-cdk/core" "1.118.0"
     constructs "^3.3.69"
 
+"@aws-cdk/aws-autoscaling@1.118.0":
+  version "1.118.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-autoscaling/-/aws-autoscaling-1.118.0.tgz#c5af01c4b74d857149f1bd25e5e4d85aa0f4d9dc"
+  integrity sha512-hELIqHFa+xv2njDn8LaN0l86mhs+mpsurwJTyjwSU3dh38099ggYai4ngYsx4Xy9BX7sm1E/gXfsM3dbKt6a8Q==
+  dependencies:
+    "@aws-cdk/aws-autoscaling-common" "1.118.0"
+    "@aws-cdk/aws-cloudwatch" "1.118.0"
+    "@aws-cdk/aws-ec2" "1.118.0"
+    "@aws-cdk/aws-elasticloadbalancing" "1.118.0"
+    "@aws-cdk/aws-elasticloadbalancingv2" "1.118.0"
+    "@aws-cdk/aws-iam" "1.118.0"
+    "@aws-cdk/aws-sns" "1.118.0"
+    "@aws-cdk/core" "1.118.0"
+    constructs "^3.3.69"
+
 "@aws-cdk/aws-certificatemanager@1.118.0":
   version "1.118.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-certificatemanager/-/aws-certificatemanager-1.118.0.tgz#c87822aeef61cf6636761ff34f2e5e94ec3bdedb"
@@ -83,6 +98,19 @@
     "@aws-cdk/aws-sns" "1.118.0"
     "@aws-cdk/core" "1.118.0"
     "@aws-cdk/cx-api" "1.118.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-cloudwatch-actions@^1.118.0":
+  version "1.118.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cloudwatch-actions/-/aws-cloudwatch-actions-1.118.0.tgz#4f391ea0d1a4a59fee9e785d84545eba7c4f7e45"
+  integrity sha512-a/6kdkbZaCX+jURaLzb9K4E97GaCdDDVdllul/kpmdQ/xyANUe5xEEMiUrzjh7s8qQjKlOSfmufdKdsj3GrRxA==
+  dependencies:
+    "@aws-cdk/aws-applicationautoscaling" "1.118.0"
+    "@aws-cdk/aws-autoscaling" "1.118.0"
+    "@aws-cdk/aws-cloudwatch" "1.118.0"
+    "@aws-cdk/aws-iam" "1.118.0"
+    "@aws-cdk/aws-sns" "1.118.0"
+    "@aws-cdk/core" "1.118.0"
     constructs "^3.3.69"
 
 "@aws-cdk/aws-cloudwatch@1.118.0", "@aws-cdk/aws-cloudwatch@^1.118.0":
@@ -192,6 +220,15 @@
     "@aws-cdk/cloud-assembly-schema" "1.118.0"
     "@aws-cdk/core" "1.118.0"
     "@aws-cdk/cx-api" "1.118.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-elasticloadbalancing@1.118.0":
+  version "1.118.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-elasticloadbalancing/-/aws-elasticloadbalancing-1.118.0.tgz#2964114e18588717e19a90938637c92b7e50c716"
+  integrity sha512-DX1OoE6y2tidLOc8b0R4H8aU7RVlZD+1kuYvCwyUx5vWyhWywe/mtO0Pggsns5TO38Cs0LY3urnSlRf8snBkAw==
+  dependencies:
+    "@aws-cdk/aws-ec2" "1.118.0"
+    "@aws-cdk/core" "1.118.0"
     constructs "^3.3.69"
 
 "@aws-cdk/aws-elasticloadbalancingv2@1.118.0":
